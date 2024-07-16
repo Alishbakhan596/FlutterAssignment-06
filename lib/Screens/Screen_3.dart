@@ -10,8 +10,12 @@ class ScreenThree extends StatefulWidget {
 class _ScreenThreeState extends State<ScreenThree> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        title: Text("Screen 3"),
+      ),
+      body: SingleChildScrollView(),
     );
   }
 }

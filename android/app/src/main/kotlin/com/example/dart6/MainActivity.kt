@@ -1,4 +1,4 @@
-package com.example.dart6
+package com.propertyapp.android
 
 import io.flutter.embedding.android.FlutterActivity
 

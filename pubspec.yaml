@@ -62,7 +62,7 @@ flutter:
   assets:
     - assets/images/heart.png
     - assets/images/facebook.jpeg
-    - assets/images/pics.jpg
+    # - assets/images/pics.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
