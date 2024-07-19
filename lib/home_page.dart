@@ -65,25 +65,25 @@ class _HomePageState extends State<HomePage> {
                         side: BorderSide(color: Colors.black54, width: 3),
                       ),
                     ),
-                    SizedBox(
-                      height: 50,
-                    ),
-                    ElevatedButton(
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ScreenOne()));
-                      },
-                      child: Text(
-                        ("Page 1"),
-                        style: TextStyle(fontSize: 25, fontFamily: "forte"),
-                      ),
-                      style: ElevatedButton.styleFrom(
-                        elevation: 20,
-                        side: BorderSide(color: Colors.black54, width: 3),
-                      ),
-                    ),
+                    // SizedBox(
+                    //   height: 50,
+                    // ),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Navigator.push(
+                    //         context,
+                    //         MaterialPageRoute(
+                    //             builder: (context) => ScreenOne()));
+                    //   },
+                    //   child: Text(
+                    //     ("Page 1"),
+                    //     style: TextStyle(fontSize: 25, fontFamily: "forte"),
+                    //   ),
+                    //   style: ElevatedButton.styleFrom(
+                    //     elevation: 20,
+                    //     side: BorderSide(color: Colors.black54, width: 3),
+                    //   ),
+                    // ),
                     SizedBox(
                       height: 50,
                     ),
